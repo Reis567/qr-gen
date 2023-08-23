@@ -1,0 +1,19 @@
+*{
+    font-family: 'Lexend', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg: #333333;
+    --fst-color:#808080;
+    --scd-color:#f6f3f3;
+    --blue: #6688AA;
+    --blue-hg:#395876;
+}
+
+body{
+    background: var(--bg);
+    color: var(--scd-color);
+}

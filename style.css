@@ -15,8 +15,31 @@
 
 body{
     background: var(--bg);
+    
+    
+}
+.content{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    flex-direction: column;
+}
+.title{
+    width: 400px;
+    margin-top: 100px;
+    background: var(--blue);
+    color: var(--scd-color);
+    text-shadow: 2px 2px 8px #333333;
+    border-radius: 20px;
+    padding: 25px;
+    text-align: center;
+}
+
+.title a{
+    font-size: 15px;
     color: var(--scd-color);
 }
+
 
 .container{
     width: 400px;
@@ -27,4 +50,33 @@ body{
     transform: translate(-50%,-50%);
     background: var(--scd-color);
     border-radius: 10px;
+}
+
+.container p {
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.container input{
+    width: 100%;
+    height: 50px;
+    border: 2px solid var(--blue-hg);
+    outline: 0;
+    padding: 10px;
+    margin: 10px 0 20px;
+    border-radius: 10px;
+}
+.container button{
+    width: 100%;
+    height: 50px;
+    background: var(--blue);
+    color: var(--scd-color);
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    margin: 20px 0;
+    font-weight: 700;
 }

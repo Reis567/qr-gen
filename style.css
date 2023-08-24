@@ -17,3 +17,14 @@ body{
     background: var(--bg);
     color: var(--scd-color);
 }
+
+.container{
+    width: 400px;
+    padding: 25px 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: var(--scd-color);
+    border-radius: 10px;
+}

@@ -11,6 +11,7 @@
     --scd-color:#f6f3f3;
     --blue: #6688AA;
     --blue-hg:#395876;
+    --red:#ff0000;
 }
 
 body{
@@ -125,4 +126,26 @@ body{
     max-height: 300px;
     margin: 10px auto;
     border: 1px solid var(--blue) ;
+}
+
+.error{
+    animation: shake 1s linear 10;
+}
+
+@keyframes shake{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-2px);
+    }
+    50%{
+        transform: translateX(0);
+    }
+    75%{
+        transform: translateX(2px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
 }

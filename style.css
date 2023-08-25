@@ -48,19 +48,14 @@ body{
 
 
 .title h1 {
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 900;
-    margin-bottom: 10px;
+    margin-bottom: 7px;
 }
 
-.title h3 {
-    font-size: 20px;
-    font-weight: 400;
-
-}
 
 .title a {
-    font-size: 18px;
+    font-size: 15px;
     color: var(--scd-color);
 }
 .title a:hover{
@@ -111,4 +106,23 @@ body{
 .container button:hover{
     background: var(--blue-hg);
     transition: .5s ease-in-out;
+}
+
+#imgBox{
+    width: 200px;
+    border-radius: 5px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.5s;
+}
+
+#imgBox img{
+    width: 100%;
+    padding: 10px;
+}
+
+#imgBox.show-img{
+    max-height: 300px;
+    margin: 10px auto;
+    border: 1px solid var(--blue) ;
 }

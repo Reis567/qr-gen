@@ -107,3 +107,8 @@ body{
     margin: 20px 0;
     font-weight: 700;
 }
+
+.container button:hover{
+    background: var(--blue-hg);
+    transition: .5s ease-in-out;
+}
